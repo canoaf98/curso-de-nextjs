@@ -180,3 +180,27 @@ hay una pagina que sirve como ejemplo para probar la logica del incremental site
       }
     }
    ```
+
+
+
+caracteristicasd de nextjs13
+- nextjs13 renderiza componentes, por defecto, del lado del servidor
+- tiene componentes especificos para fuentes y para imagenes
+- en el streaming se puede renderizar la pagina por partes
+- ya no utilizan webpack porque crearon turbopack
+
+
+
+preguntas que no respondi bien por segunda vez: 
+
+- El prefetching automático que nos ofrece Next.js consiste en:
+ - no es Iniciar la renderización de otras páginas utilizando Service Workers.
+
+- Los endpoints de una API en Next.js deben quedar en el path: /pages/api
+
+- Sobre las API en Next.js, selecciona el enunciado falso:
+  - no es Los endpoints están listos para ser desplegados como Serverless Functions.
+
+- Cuando se desea que una página dinámica pre renderice todo su contenido de forma estática, se debe:
+ - no es Ejecutar "next export"
+

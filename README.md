@@ -204,3 +204,13 @@ preguntas que no respondi bien por segunda vez:
 - Cuando se desea que una página dinámica pre renderice todo su contenido de forma estática, se debe:
  - no es Ejecutar "next export"
 
+
+
+
+
+Curso de nextjs por midulive en yt:
+
+En el siguiente parrafo estare ilustrando el proceso de desarrollo con nextjs ilustrando como se veria actualmente una migracion desde una version estable de nextjs a una mucho mas moderna que vimos en la nextjs conf
+
+- la carpeta de pages ya dejara de existir y ahora vamos a enforcarnos en el uso de la carpeta app
+- ahora lo que vamos a hacer es instalar las reglas estandar para trabajar con eslint utilizando el comando: pnpm install standard -D y seguido vamos a actualizar el archivo .eslintrc.json con el contenido estatico del modulo que recien instalamos (ver codigo del commit)

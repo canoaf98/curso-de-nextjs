@@ -214,3 +214,7 @@ En el siguiente parrafo estare ilustrando el proceso de desarrollo con nextjs il
 
 - la carpeta de pages ya dejara de existir y ahora vamos a enforcarnos en el uso de la carpeta app
 - ahora lo que vamos a hacer es instalar las reglas estandar para trabajar con eslint utilizando el comando: pnpm install standard -D y seguido vamos a actualizar el archivo .eslintrc.json con el contenido estatico del modulo que recien instalamos (ver codigo del commit)
+
+- en el momento en el que dejamos de utilizar la carpeta pages y exportamos un componente que se encuentre en la carpeta app saldra un error en consola indicando que necesitamos agregar las caracteristicas experimentales
+
+- para crear una nueva ruta por defecto se hace con page.tsx, luego se pueden ver todos los cambios con pnpm dev

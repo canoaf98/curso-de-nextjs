@@ -195,6 +195,7 @@ preguntas que no respondi bien por segunda vez:
 
 - El prefetching automático que nos ofrece Next.js consiste en:
  - no es Iniciar la renderización de otras páginas utilizando Service Workers.
+  - Es iniciar la descarga de recursos de una página cuando se hace  "hover" en un enlace.
 
 - Los endpoints de una API en Next.js deben quedar en el path: /pages/api
 
@@ -218,3 +219,21 @@ En el siguiente parrafo estare ilustrando el proceso de desarrollo con nextjs il
 - en el momento en el que dejamos de utilizar la carpeta pages y exportamos un componente que se encuentre en la carpeta app saldra un error en consola indicando que necesitamos agregar las caracteristicas experimentales
 
 - para crear una nueva ruta por defecto se hace con page.tsx, luego se pueden ver todos los cambios con pnpm dev
+
+La mejor fomra de realizar CSS en Nextjs es CSS-in-JS con styled JSX y Styled Components
+
+Los endpoints de una API de nextjs deben quedar guardados en el path: /pages/api
+
+¿Cuál podría ser el enfoque más adecuado para una página que tiene 145 productos (los productos rara vez cambian y están en Wordpress)?
+Static Site Generation
+
+¿Cuál podría ser el enfoque más adecuado para una página que tiene 1 página que muestra información en tiempo real?
+Client side rendering
+
+Sobre CSS en Next.js, uno de los siguientes enfoques NO está soportado por defecto:
+CSS con SASS
+
+El code splitting que realiza Next.js está determinado principalmente por:
+Las rutas y las dependencias
+
+Sobre las API en Next.js, selecciona el enunciado falso.Unas páginas no pueden utilizar una API con el mismo nombre dentro de Next.js.
